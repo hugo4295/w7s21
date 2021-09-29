@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" size="20" maxlength="15" required placeholder="escribe tu nombre aqui"> <br>
+        <label >Uso de internet</label><br>        
+        <input type="checkbox" name="casa">
+        <label for="casa">Casa</label> 
+        <input type="checkbox" name="escuela" value="Escuela"><label for="escuela">Escuela</label> <br>
+        <label for="">Sexo</label> <br>
+        <label for="sexo">Masculino</label>
+        <input type="radio" name="sexo" value="Masculino">
+        <label for="sexo">Femenino</label>
+        <input type="radio" name="sexo" value="Femenino" required>
+        <label for="sexo">Omitir</label>
+        <input type="radio" name="sexo" value="Omitir"> <br>
+        <label for="estado">Lugar de nacimiento</label>
+        <select name="estado">
+            <option value="CDMX">CDMX</option>
+            <option value="edomex">Estado de México</option>
+            <option value="puebla">Puebla</option>
+            <option value="Durango">Durango</option>
+        </select> <br>
+        <label for="correo">Correo electronico</label>
+        <input type="email" name="correo" autofocus> <br>
+        <label for="buscar">Busqueda</label>
+        <input type="search" name="buscar"> <br>
+        <label for="telefono">Telefono</label>
+        <input type="tel" name="telefono"> <br>
+        <label for="cantidad">Cantidad</label>        
+        <input type="number" name="cantidad"> <br>
+        <label for="url">Pagina</label>
+        <input type="url" name="url"> <br>
+        <label for="color">paleta de colores</label>
+        <input type="color" name="color"> <br>
+        <label for="calendario">Calendario</label>
+        <input type="date" name="calendario"> <br>
+        <label for="feclocal">Fecha local</label>
+        <input type="datetime-local" name="feclocal"> <br>
+        <label for="hora">Hora</label>
+        <input type="time" name="hora"> <br>
+        <label for="barravalor">Barra</label>
+        <input type="range" name="barravalor">
+         <output for="barravalor"></output> <br>
+        <input type="submit" value="Enviar"> 
+        <input type="reset" value="Limpiar">       
+    </form>
+</body>
+</html>
