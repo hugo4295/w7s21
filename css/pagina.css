@@ -32,14 +32,13 @@ body {
     font-size: 2em;
 }
 
+/** 
+el error era la ruta ya que el archivo css esta en una ruta diferente de la fuente
+**/
+
 @font-face {
     font-family: "Makcex";
   src: url("../fonts/Makcex.ttf");
   font-weight: normal;
   font-style: normal;
-}
-
-@font-face {
-    font-family: "varsity";
-    src: url("../fonts/varsity_regular.ttf");
 }
